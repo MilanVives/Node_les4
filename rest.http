@@ -1,0 +1,27 @@
+GET http://localhost:5500/api/courses
+
+###
+
+GET http://localhost:5500/api/courses/1
+
+###
+
+POST http://localhost:5500/api/courses
+content-type: application/json
+
+{
+    "name": "course4"
+}
+
+###
+
+PUT http://localhost:5500/api/courses/3
+content-type: application/json
+
+{
+    "name": "new course3"
+}
+
+###
+
+DELETE http://localhost:5500/api/courses/2
